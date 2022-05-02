@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 
 function Hero() {
+
+
     return (
     
     <div>
@@ -47,7 +49,7 @@ function Hero() {
       </div>
       <div class="flex">
       <Link to="/sign-in"><button class="mx-3 focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hidden md:block bg-transparent transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-700 text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">Logg inn</button></Link>
-      <button class="mx-3 focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hidden md:block bg-transparent transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-700 text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">Registrer</button>
+      <Link to="/sign-up"><button class="mx-3 focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hidden md:block bg-transparent transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-700 text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">Registrer</button></Link>
       </div>
     </div>
   </nav>
@@ -67,10 +69,15 @@ function Hero() {
       </div>
     </div>
   </div>
+
+
+
+ 
   </div>
     );
   }
 
+  
 
 
 export default Hero;
