@@ -1,7 +1,16 @@
-
+import { Link } from "react-router-dom";
+import React, { useState } from 'react';
 
 
 function SignInPage() {
+
+
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+
+
+
     return (
       <div className="Sign in">
         <div class="flex items-center min-h-screen bg-white dark:bg-gray-900">
